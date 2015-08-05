@@ -10,12 +10,14 @@ Rectangle.cpp and Rectangle.h is a an example c++ class to be wrapped
 
 This is wrapped using cython with an interface file rect.pyx and compiled using setup.py in the standard cython way using the command:
 
+Compiling the code:
+
 ```bash
 python setup.py build_ext --inplace
 ```
 
-As discussed in:
-[Wrapping c++](http://docs.cython.org/src/userguide/wrapping_CPlusPlus.html)
+Running the code:
 
-python_test.py
-Shows the standard examples as well as how to pass 2D arrays between python and cython
+```bash
+python python_test.py
+```
