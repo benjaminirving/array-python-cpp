@@ -19,3 +19,9 @@ As discussed in:
 
 python_test.py
 Shows the standard examples as well as how to pass 2D arrays between python and cython
+
+**Requires**
+Cython
+numpy
+
+
