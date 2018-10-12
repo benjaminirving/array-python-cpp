@@ -6,6 +6,10 @@ Allowing computationally expensive code to be easily written in c++ and linked t
 
 This code is a small adaption from the Cython standard example ([Wrapping c++](http://docs.cython.org/src/userguide/wrapping_CPlusPlus.html)) to also include the 2D numpy example
 
+Requirements:
+- numpy
+- Cython
+
 Rectangle.cpp and Rectangle.h is a an example c++ class to be wrapped
 
 This is wrapped using cython with an interface file rect.pyx and compiled using setup.py in the standard cython way using the command:
